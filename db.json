@@ -1,0 +1,91 @@
+{
+  "tweets": [
+    {
+      "id": "1753626617241",
+      "author_id": "szymon",
+      "text": "siemka\n"
+    },
+    {
+      "id": "1753626857396",
+      "author_id": "szymon",
+      "text": "testingo\n"
+    },
+    {
+      "id": "1753626903460",
+      "author_id": "kuba",
+      "text": "czesc szymon\n"
+    },
+    {
+      "id": "1753626913780",
+      "author_id": "szymon",
+      "text": "no elo elo\n"
+    },
+    {
+      "id": "1753630690070",
+      "author_id": "jan",
+      "text": "Hej, tu Jan!!!!"
+    },
+    {
+      "id": "1753632421545",
+      "author_id": "kasia",
+      "text": "Joł jestem Kasia"
+    },
+    {
+      "id": "1753633232211",
+      "author_id": "szymon",
+      "text": "Dzisiaj jadłem tikka masala"
+    },
+    {
+      "id": "1753633608544",
+      "author_id": "Johnerinho",
+      "text": "Hi guys, my name's John!"
+    },
+    {
+      "id": "1753634213675",
+      "author_id": "batman",
+      "text": "batman here"
+    },
+    {
+      "id": "1753695684403",
+      "author_id": "krzychu",
+      "text": "dobra, chyba wszystko dziala"
+    }
+  ],
+  "users": [
+    {
+      "id": "szymon",
+      "name": "Szymon Kowalczyk",
+      "email": "szymon@test.com"
+    },
+    {
+      "id": "kuba",
+      "name": "Kuba Nowak",
+      "email": "kuba@test.com"
+    },
+    {
+      "id": "jan",
+      "name": "Jan Rybak",
+      "email": "jan@test.com"
+    },
+    {
+      "id": "kasia",
+      "name": "Kasia Lubelska",
+      "email": "kasia@test.com"
+    },
+    {
+      "id": "Johnerinho",
+      "name": "John Doe",
+      "email": "john@test.com"
+    },
+    {
+      "id": "batman",
+      "name": "Christian Bale",
+      "email": "chris@test.com"
+    },
+    {
+      "id": "krzychu",
+      "name": "Krzysztof Markiewicz",
+      "email": "krzysiek@test.com"
+    }
+  ]
+}

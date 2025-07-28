@@ -1,0 +1,229 @@
+.tweets-page {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.tweets-header {
+  background: white;
+  border-bottom: 1px solid #e1e8ed;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.header-content h1 {
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #333;
+}
+
+.user-initials {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #1da1f2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tweets-main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tweet-composer {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tweet-composer textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: vertical;
+  font-size: 16px;
+  font-family: inherit;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
+  transition: border-color 0.2s;
+}
+
+.tweet-composer textarea:focus {
+  border-color: #1da1f2;
+}
+
+.tweet-composer textarea.error {
+  border-color: #e0245e;
+}
+
+.composer-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.character-count {
+  color: #666;
+  font-size: 14px;
+}
+
+.tweet-button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tweet-button:hover {
+  background-color: #1a91da;
+}
+
+.tweet-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.tweets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.tweet {
+  background: white;
+  padding: 16px 20px;
+  display: flex;
+  gap: 12px;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.tweet:last-child {
+  border-bottom: none;
+  border-radius: 0 0 8px 8px;
+}
+
+.tweet:first-child {
+  border-radius: 8px 8px 0 0;
+}
+
+.tweet:only-child {
+  border-radius: 8px;
+}
+
+.tweet-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1da1f2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.tweet-content {
+  flex: 1;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.author-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.author-handle {
+  color: #666;
+  font-size: 14px;
+}
+
+.tweet-text {
+  color: #333;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.tweet-text code {
+  background-color: #f7f9fa;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.tweet-text strong {
+  font-weight: 600;
+}
+
+.error-message {
+  color: #e0245e;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+.logout-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #e0245e;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+  background-color: #c8102e;
+}
