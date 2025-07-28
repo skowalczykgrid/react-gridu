@@ -1,7 +1,7 @@
 # To run:
 
-In on terminal run: npm start
-In second: npm run json-server
+1. In on terminal run: npm start
+2. In second: npm run json-server
 
 # Final task for React course
 
